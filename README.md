@@ -75,8 +75,8 @@ A Mini Local Business Dashboard that simulates how small businesses might view t
    ```
 
 4. **Access the application**
-   - Frontend: http://localhost:3000
-   - Backend API: http://localhost:5001
+   - Frontend: https://growth-pro-ai-snowy.vercel.app/
+   - Backend API: https://growthproai-iibc.onrender.com
 
 ## 📡 API Endpoints
 
