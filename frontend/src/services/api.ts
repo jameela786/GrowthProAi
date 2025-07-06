@@ -1,6 +1,6 @@
 import { ApiResponse, HeadlineResponse, BusinessFormData } from '../types';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5001';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://growthproai-iibc.onrender.com';
 
 export class ApiService {
   static async getBusinessData(formData: BusinessFormData): Promise<ApiResponse> {
