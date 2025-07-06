@@ -37,8 +37,8 @@ A Mini Local Business Dashboard that simulates how small businesses might view t
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd growthpro-business-dashboard
+   git clone https://github.com/jameela786/GrowthProAi.git
+   cd GrowthProAi
    ```
 
 2. **Install dependencies**
@@ -125,14 +125,6 @@ A Mini Local Business Dashboard that simulates how small businesses might view t
 - **Loading States** - Elegant loading indicators
 - **Error Handling** - User-friendly error messages
 
-## 📱 Screenshots
-
-### Business Form
-![Business Form](screenshots/form.png)
-
-### Business Dashboard
-![Business Dashboard](screenshots/dashboard.png)
-
 ## 🔧 Configuration
 
 ### Environment Variables
@@ -194,45 +186,4 @@ curl -X POST http://localhost:5001/business-data \
 # Test headline regeneration
 curl "http://localhost:5001/regenerate-headline?name=Test%20Business&location=Test%20City"
 ```
-
-## 🎯 Assignment Requirements Checklist
-
-- ✅ **Frontend (React + Tailwind CSS)**
-  - ✅ Input form with Business Name and Location
-  - ✅ Display card with Google Rating, Reviews, and SEO Headline
-  - ✅ "Regenerate SEO Headline" button
-  - ✅ Clean, mobile-friendly UI
-
-- ✅ **Backend (Node.js + Express)**
-  - ✅ POST /business-data endpoint
-  - ✅ GET /regenerate-headline endpoint
-  - ✅ Simulated data (no database required)
-
-- ✅ **Bonus Features**
-  - ✅ Loading spinners and transitions
-  - ✅ Form validation
-  - ✅ Responsive design
-  - ✅ Error handling
-  - ✅ Modern UI/UX
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License.
-
-## 👨‍💻 Author
-
-**Your Name**
-- Email: your.email@example.com
-- GitHub: [@yourusername](https://github.com/yourusername)
-
 ---
-
-**Note**: This is a demo application with simulated data for educational purposes. The ratings, reviews, and business data are randomly generated and not connected to real Google Business profiles. 
